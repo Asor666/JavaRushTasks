@@ -140,7 +140,7 @@ public class MinesweeperGame extends Game {
     }
     private void gameOver(){
         isGameStopped = true;
-        showMessageDialog(Color.RED,"КИШКИ, КРОВЬ, РАСПИДОРАСИЛО!",Color.BLACK,22);
+        showMessageDialog(Color.RED,"БУМ! ТЕБЯ РАСЩЕПИЛО НА АТОМЫ!",Color.BLACK,22);
     }
     private void win(){
         isGameStopped = true;
